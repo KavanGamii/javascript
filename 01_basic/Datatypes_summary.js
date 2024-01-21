@@ -26,3 +26,34 @@ const myFunction = function(){
 console.log(typeof bigNumber);
 console.log(typeof outSideTemp);
 console.log(typeof anotherId);
+
+
+
+
+
+
+
+
+
+//******************************************************************************* *
+
+// Stack (Primitive) , Heap(Non_Primitive)
+
+let myName = "Kavan"
+
+let anotherName = myName
+anotherName = "KavanGami"
+
+console.log(anotherName);
+console.log(myName);
+
+let userOne ={
+    email:"Kavangoogle.com",
+    upi : "user123"
+}
+let userTwo = userOne
+
+userTwo.email = "Kavangami1234gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
